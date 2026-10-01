@@ -7,7 +7,7 @@ const ShowEmailBtn = ({ email }: { email: string }) => {
   return (
     <div>
       <button onClick={() => setShowEmail((prev) => !prev)}>Show email</button>
-      <p>email:{showEmail && email}</p>
+      <p>Email:{showEmail && email}</p>
     </div>
   );
 };

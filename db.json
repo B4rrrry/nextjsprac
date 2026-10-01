@@ -6,9 +6,39 @@
       "email": "alex@test.com"
     },
     {
-      "id": "2",
-      "name": "Dmitry",
-      "email": "dmitry@test.com"
+      "name": "loh",
+      "email": "loh",
+      "id": "3nU040gB7C8"
+    },
+    {
+      "name": "ww",
+      "email": "ewew",
+      "id": "0doXRgEDGgk"
+    },
+    {
+      "name": "ывывы",
+      "email": "вывыв",
+      "id": "7eVivAkbxfo"
+    },
+    {
+      "name": "dsd",
+      "email": "sdsd",
+      "id": "8Qu-rH9siLE"
+    },
+    {
+      "name": "dsd",
+      "email": "sdsds",
+      "id": "Op5bjBwRM4w"
+    },
+    {
+      "name": "dsds",
+      "email": "dsdsd",
+      "id": "fShX8KAB2vA"
+    },
+    {
+      "name": "dsd",
+      "email": "sdsdss",
+      "id": "rpyFVDQ1buc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
