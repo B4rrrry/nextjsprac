@@ -14,7 +14,7 @@ type User = { id: string; name: string; email: string };
 const UsersList = async (props: UsersListProps) => {
   const { query, currentPage } = props;
   const usersRes = await fetchUsers<User>(query, currentPage);
-  console.log(usersRes, "usersRes");
+ 
   return (
     <div>
       <p className="font-bold mb-3">Users</p>

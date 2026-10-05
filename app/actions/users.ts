@@ -1,5 +1,6 @@
 import { cacheLife, revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import z from "zod";
 
 export type PaginatedResponse<T> = {
   first: number | null;
@@ -51,6 +52,7 @@ export const createUser = async (formData: FormData) => {
   console.log(formData, "formData");
   console.log("----------------------------");
 
+ 
   const newUser = await fetch("http://localhost:3001/users", {
     method: "POST",
     body: JSON.stringify({
@@ -59,7 +61,7 @@ export const createUser = async (formData: FormData) => {
     }),
   });
   revalidatePath("/users");
-  redirect("/users");
+  redirect("/users"); 
 };
 
 export const deleteUser = async (id: string) => {

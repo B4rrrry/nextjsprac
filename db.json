@@ -6,11 +6,6 @@
       "email": "alex@test.com"
     },
     {
-      "name": "loh",
-      "email": "loh",
-      "id": "3nU040gB7C8"
-    },
-    {
       "name": "ww",
       "email": "ewew",
       "id": "0doXRgEDGgk"
@@ -39,6 +34,21 @@
       "name": "dsd",
       "email": "sdsdss",
       "id": "rpyFVDQ1buc"
+    },
+    {
+      "name": "asas",
+      "email": "asasas",
+      "id": "CwHItW2K55g"
+    },
+    {
+      "name": "asa",
+      "email": "asa@mail.ru",
+      "id": "1nw01ZQfwmw"
+    },
+    {
+      "name": "log",
+      "email": "asa@mail.ru",
+      "id": "qeWtMQ8kSVg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,18 +1,15 @@
-import { createUser } from "@/app/actions/users";
+import CreateUserForm from "@/app/_components/CreateUserForm/CreateUserForm";
+import { createUser } from '@/app/actions/users';
 
 const CreateUserPage = () => {
+
+
+  
+
   return (
     <div>
       <h1>Create user</h1>
-      <form action={createUser}>
-        <label htmlFor="">
-          <input type="text" name="name" id="name" placeholder="name" />
-        </label>
-        <label htmlFor="">
-          <input type="text" name="email" id="email" placeholder="email" />
-        </label>
-        <input type="submit" value="Send" />
-      </form>
+      <CreateUserForm createUser={createUser} />
     </div>
   );
 };
