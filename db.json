@@ -3,51 +3,67 @@
     {
       "id": "1",
       "name": "Alex",
-      "email": "alex@test.com"
+      "email": "alex@test.com",
+      "password": "test12345"
+    },
+     {
+      "id": "2",
+      "name": "admin",
+      "email": "admin@test.com",
+      "password": "admin"
     },
     {
       "name": "ww",
       "email": "ewew",
+      "password": "test12345",
       "id": "0doXRgEDGgk"
     },
     {
       "name": "ывывы",
       "email": "вывыв",
+      "password": "test12345",
       "id": "7eVivAkbxfo"
     },
     {
       "name": "dsd",
       "email": "sdsd",
+      "password": "test12345",
       "id": "8Qu-rH9siLE"
     },
     {
       "name": "dsd",
       "email": "sdsds",
+      "password": "test12345",
       "id": "Op5bjBwRM4w"
     },
     {
       "name": "dsds",
       "email": "dsdsd",
+      "password": "test12345",
       "id": "fShX8KAB2vA"
     },
     {
       "name": "dsd",
       "email": "sdsdss",
+      "password": "test12345",
       "id": "rpyFVDQ1buc"
     },
     {
       "name": "asas",
       "email": "asasas",
+      "password": "test12345",
       "id": "CwHItW2K55g"
     },
     {
       "name": "asa",
       "email": "asa@mail.ru",
+      "password": "test12345",
       "id": "1nw01ZQfwmw"
     },
     {
       "name": "log",
       "email": "asa@mail.ru",
+      "password": "test12345",
       "id": "qeWtMQ8kSVg"
     }
   ],
